@@ -1,0 +1,33 @@
+
+body{
+    background-color: black;
+    color: #ccc;
+}
+.container{
+    width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-bottom: 10px;
+}
+button{
+    background-color: #00ff08;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

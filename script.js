@@ -7,6 +7,5 @@ function addTask() {
     document.getElementById("taskList").innerHTML += `<li>${task} 
     <button onclick="this.parentNode.remove()">Delete</button></li>`
 
-    saveTasksToLocalStorage();
    }
 }
